@@ -16,46 +16,23 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
-===== Temperature Converter =====
 
-  1. Convert from Celsius to Fahrenheit
-  2. Convert from Fahrenheit to Celsius
+print("===== Temperature Converter =====\n")
+print("  1. Convert from Celsius to Fahrenheit")
+print("  2. Convert from Fahrenheit to Celsius\n")
 
-Please choose from the above menu: 1
-Enter a temperature to convert: 100
+choice = input("Please choose from the above menu: ")
 
-100.0 degrees Celsius is 212.0 degrees Fahrenheit.
+temperature = float(input("Enter a temperature to convert: "))
 
-
-===== Temperature Converter =====
-
-  1. Convert from Celsius to Fahrenheit
-  2. Convert from Fahrenheit to Celsius
-
-Please choose from the above menu: 2
-Enter a temperature to convert: 32
-
-32.0 degrees Fahrenheit is 0.0 degrees Celsius.
-
-===== Temperature Converter =====
-
-  1. Convert from Celsius to Fahrenheit
-  2. Convert from Fahrenheit to Celsius
-
-Please choose from the above menu: 1
-Enter a temperature to convert: -40
-
--40.0 degrees Celsius is -40.0 degrees Fahrenheit.
-
-===== Temperature Converter =====
-
-  1. Convert from Celsius to Fahrenheit
-  2. Convert from Fahrenheit to Celsius
-
-Please choose from the above menu: 2
-Enter a temperature to convert: -40
-
--40.0 degrees Fahrenheit is -40.0 degrees Celsius.
+if choice == "1":
+    fahrenheit = (temperature * 9/5) + 32
+    print(f"\n{temperature:.1f} degrees Celsius is {fahrenheit:.1f} degrees Fahrenheit.")
+elif choice == "2":
+    celsius = (temperature - 32) * 5/9
+    print(f"\n{temperature:.1f} degrees Fahrenheit is {celsius:.1f} degrees Celsius.")
+else:
+    print("\nInvalid choice.")
 
 
 
