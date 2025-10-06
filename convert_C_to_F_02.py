@@ -1,6 +1,6 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
+# NAME: Hayden
 # DATE: 
 # BRIEF DESCRIPTION:  
 
@@ -16,7 +16,46 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+===== Temperature Converter =====
 
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 1
+Enter a temperature to convert: 100
+
+100.0 degrees Celsius is 212.0 degrees Fahrenheit.
+
+
+===== Temperature Converter =====
+
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 2
+Enter a temperature to convert: 32
+
+32.0 degrees Fahrenheit is 0.0 degrees Celsius.
+
+===== Temperature Converter =====
+
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 1
+Enter a temperature to convert: -40
+
+-40.0 degrees Celsius is -40.0 degrees Fahrenheit.
+
+===== Temperature Converter =====
+
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 2
+Enter a temperature to convert: -40
+
+-40.0 degrees Fahrenheit is -40.0 degrees Celsius.
 
 
 
